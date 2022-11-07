@@ -1,0 +1,15 @@
+
+n = input('Digite aqui o primeiro numero: ')
+
+print('Sou um número? -', n.isnumeric())
+print('Sou um alphanumerico? -', n.isalnum())
+print('Sou um alphabetico? -', n.isalpha())
+print('Sou um decimal? -', n.isdecimal())
+print('Estou em minusculo? -', n.islower())
+print('Estou em maiusculo? -', n.isupper())
+print('Sou printavel? -', n.isprintable())
+print('Sou um titulo? -', n.istitle())
+print('Sou um ascii? -', n.isascii())
+print('Sou um digito? -', n.isdigit())
+print('Sou um identificador? -', n.isidentifier())
+print('Sou um espaço? -', n.isspace())
